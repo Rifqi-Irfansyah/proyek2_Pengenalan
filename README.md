@@ -1,2 +1,2 @@
-Edited by RIFQI
-Edited by Alqan
+Edited by RIFQI IRFANSYAH
+Edited by ALQAN
