@@ -5,3 +5,4 @@ swa
 berlin
 ffcfy
 testing
+belajar kedua kali
