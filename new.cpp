@@ -1,12 +1,26 @@
 #include <iostream>
 using namespace std;
 
+    void nilai (int *y)
+    {
+        cout << "alamat parameter : " << y << endl;
+        cout << "nilai parameter : " <<  *y << endl;
+    }
+
+    void kuadrat(int *z)
+    {
+        *z = *z * *z;
+    }
+
 int main ()
 {
-    float a[10];
-    cout << "Enter 5 numbers: ";
-    for (int i = 0 ; i < 5 ; i++) {
-        cin >> a[i] ;
-    }
-    cout << "hallo world";
+    int x;
+    cout << "Masukkan nilai: ";
+    cin >> x;
+    nilai (&x);
+    cout << "Angka : " << x << endl;
+
+    kuadrat(&x);
+    cout  << "Kuadrat dari angka di atas adalah : " << x << endl;
+    cout << "Alamat dari vaiaber x = "<<&x << endl;
 }
